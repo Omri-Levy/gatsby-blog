@@ -30,7 +30,7 @@ const Blog = () => {
       <h1>Blog</h1>
       <ol className={blogStyle.posts}>
         {data.allContentfulBlogPost.edges.map(post => (
-          <li className={blogStyle.post}>
+          <li key={post.node.slug} className={blogStyle.post}>
             <Link to={`/blog/${post.node.slug}`}>
               <h2>{post.node.title}</h2>
               <p>{post.node.publishedDate}</p>

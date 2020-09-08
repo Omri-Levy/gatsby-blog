@@ -18,7 +18,10 @@ const Home = () => {
   return (
     <Layout>
       <Head title={data.site.siteMetadata.title} />
-      <h1>Hello from index</h1>
+      <h1>Welcome</h1>
+      <p>
+        This project's goal was learning Gatsby and making a static site.
+      </p>
     </Layout>
   )
 }

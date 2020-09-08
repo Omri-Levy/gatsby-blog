@@ -16,6 +16,9 @@ const Footer = () => {
   return (
     <footer className={footerStyle.footer}>
       <p>Created by {data.site.siteMetadata.author}, &copy; 2020</p>
+      <a href='https://www.freepik.com/vectors/background'>
+        Background vector created by pikisuperstar - www.freepik.com
+      </a>
     </footer>
   )
 }

@@ -1,30 +1,58 @@
+@import 'fonts';
+
 .header {
-  padding: 1rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border: 3px solid #FF6EC7;
+  box-shadow: 1px 1px 10px #fff;
+  border-radius: 15px;
+  background-color: rgba(#000, 0.5);
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    align-items: flex-start;
+  }
 }
 
 .title {
-  color: #000;
+  font-family: lazer84, serif;
+  color: lighten(#00FFFF, 45%);
+  -webkit-text-stroke: 3px #00FFFF;
+  text-shadow: 1px 1px 10px #fff;
   text-decoration: none;
 }
 
 .nav-link {
+  font-family: lazer84, serif;
   text-decoration: none;
-  color: #999;
+  color: lighten(#00FFFF, 45%);
+  -webkit-text-stroke: 1px #00FFFF;
+  text-shadow: 1px 1px 10px #fff;
+
+
   &:hover {
     color: #999;
   }
 }
 
 .nav-list {
-  width: 60%;
   display: flex;
   justify-content: space-between;
   margin: 0;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .nav-item {
   list-style: none;
-  font-size: .9rem;
+  font-size: 1.2rem;
   margin-right: 1.3rem;
 }
 

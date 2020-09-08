@@ -1,0 +1,11 @@
+.link:visited {
+  color: inherit;
+}
+
+.link {
+  font-family: lazer84, serif;
+  color: lighten(#00FFFF, 45%);
+  -webkit-text-stroke: 1px #00FFFF;
+  text-shadow: 1px 1px 10px #fff;
+  text-decoration: none;
+}

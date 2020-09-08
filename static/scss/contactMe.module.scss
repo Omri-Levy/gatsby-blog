@@ -1,0 +1,29 @@
+.link {
+  margin-left: 1.5rem;
+  font-family: lazer84, serif;
+  color: lighten(#00FFFF, 45%);
+  -webkit-text-stroke: 1px #00FFFF;
+  text-shadow: 1px 1px 10px #fff;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: inherit;
+}
+
+.link:hover {
+  color: #999;
+}
+
+.list {
+  list-style: none;
+}
+
+.item {
+  &::before {
+    content: '•';
+    color: lighten(#ffff33, 45%);
+    -webkit-text-stroke: 1px #ffff33;
+    text-shadow: 1px 1px 10px #fff;
+  }
+}

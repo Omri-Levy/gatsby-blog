@@ -6,8 +6,8 @@ import layoutStyle from "../../static/scss/layout.module.scss"
 const Layout = ({ children }) => {
   return (
     <div className={layoutStyle.container}>
+      <Header />
       <div className={layoutStyle.content}>
-        <Header />
         {children}
       </div>
       <Footer />

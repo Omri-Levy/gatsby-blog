@@ -1,5 +1,16 @@
 .footer {
+  color: #fff;
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  -webkit-text-stroke: 1px #000;
+
+  a {
+    -webkit-text-stroke: 1px #000;
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+  }
 }
