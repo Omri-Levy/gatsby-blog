@@ -12,23 +12,18 @@ const ContactMe = () => {
         <li className={contactMeStyle.item}>Phone number: 0526256647</li>
         <li className={contactMeStyle.item}>Email: omri.levy0197@gmail.com</li>
         <br />
-        <li className={contactMeStyle.item}>Links:{window.innerWidth < 768 &&
+        <li className={contactMeStyle.item}>Links:
         <br />
-        }
           <a className={contactMeStyle.link} target='_blank' rel='noreferrer'
              href='https://github.com/Omri-Levy'>
             Github
           </a>
-          {window.innerWidth < 768 &&
           <br />
-          }
           <a className={contactMeStyle.link} target='_blank' rel='noreferrer'
              href='https://www.linkedin.com/in/omri-levy-798b901b1/'>
             LinkedIn
           </a>
-          {window.innerWidth < 768 &&
           <br />
-          }
           <a className={contactMeStyle.link} target='_blank' rel='noreferrer'
              href='https://www.facebook.com/omri.levy.10420'>
             Facebook
