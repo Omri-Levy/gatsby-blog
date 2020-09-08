@@ -13,7 +13,7 @@ const ContactMe = () => {
         <li className={contactMeStyle.item}>Email: omri.levy0197@gmail.com</li>
         <br />
         <li className={contactMeStyle.item}>Links:
-        <br />
+          <br />
           <a className={contactMeStyle.link} target='_blank' rel='noreferrer'
              href='https://github.com/Omri-Levy'>
             Github
